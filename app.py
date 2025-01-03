@@ -5,7 +5,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 import os
 
-def load_model(model_path='/Users/hp/Desktop/atul-webpage/Newfolder/New_folder/trained.h5'):
+def load_model(model_path='/Users/hp/Desktop/atul-webpage/Newfolder/New_folder/model.h5'):
     if os.path.exists(model_path):
         return tf.keras.models.load_model(model_path)
 
